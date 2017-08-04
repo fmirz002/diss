@@ -1,0 +1,8 @@
+<launch>
+    <node name="filter" pkg="ur10_gripper_vision" type="filterPoints" respawn="true" />
+    <node name="segment_B" pkg="ur10_gripper_vision" type="segment_blue" respawn="true" />
+    <node name="segment_R" pkg="ur10_gripper_vision" type="segment_red" respawn="true" />
+    <node name="segment_G" pkg="ur10_gripper_vision" type="segment_green" respawn="true" />
+    <node name="segment_Y" pkg="ur10_gripper_vision" type="segment_yellow" respawn="true" />
+    <node name="object_positions" pkg="ur10_gripper_vision" type="objectPos" respawn="true" />
+</launch>
